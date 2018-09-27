@@ -1,0 +1,50 @@
+/* General style */
+html {
+  background-color: rgb(220, 220, 220);
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.up-ca {
+  text-transform: uppercase;
+}
+
+/* Header style */
+
+.header {
+  background-color: rgb(255, 255, 255);
+  height: 4rem;
+}
+
+.logo-sec {
+  height: 2rem;
+  margin-left: 1.5rem;
+}
+
+.colmar {
+  color: rgb(105, 105, 105);
+  font-weight: 500;
+}
+
+.academy {
+  color: rgb(169, 169, 169);
+}
+
+.navigation {
+  margin-right: 1.5rem;
+}
+
+.navigation li {
+  margin-left: 1rem;
+}
+
+.navigation li:first-child {
+  margin-left: 0;
+}
