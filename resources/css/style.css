@@ -48,3 +48,54 @@ html {
 .navigation li:first-child {
   margin-left: 0;
 }
+
+/* Banner style */
+
+.img-ban {
+  width: 60%;
+  margin: 2rem 1.5rem;
+}
+
+.img-ban img {
+  width: 100%;
+  height: auto;
+}
+
+.start-sec {
+  width: calc(40% - 3rem);
+}
+
+.start {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 85%;
+}
+
+.start h1,
+.start p,
+.start .button {
+  margin: 1rem 0;
+  width: 100%;
+}
+
+.start h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: RGB(105, 105, 105);
+}
+
+.start p {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: rgb(105, 105, 105);
+}
+
+.start .button {
+  justify-content: center;
+  background-color: RGB(105, 105, 105);
+}
+
+.start .button span {
+  padding: 0.5rem 0;
+  color: RGB(255, 255, 255);
+}
