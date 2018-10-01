@@ -5,6 +5,12 @@ html {
   font-family: sans-serif;
 }
 
+h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: RGB(105, 105, 105);
+}
+
 .flex {
   display: flex;
   flex-wrap: wrap;
@@ -78,12 +84,6 @@ html {
   width: 100%;
 }
 
-.start h1 {
-  font-size: 2.5rem;
-  font-weight: bold;
-  color: RGB(105, 105, 105);
-}
-
 .start p {
   font-size: 1.5rem;
   font-weight: 500;
@@ -98,4 +98,87 @@ html {
 .start .button span {
   padding: 0.5rem 0;
   color: RGB(255, 255, 255);
+}
+
+/* Information style (main) */
+
+.informations {
+  background-color: rgb(255, 255, 255);
+  align-items: flex-start;
+}
+
+.main {
+  width: 60%;
+  margin: 2rem 1.5rem;
+  flex-direction: column;
+}
+
+.img-main {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.img-main img {
+  width: 100%;
+  height: auto;
+}
+
+.txt-main h1 {
+  margin-bottom: 1.5rem;
+}
+
+.txt-main span {
+  margin-top: 2rem;
+}
+
+/* Information style (news) */
+
+.news {
+  flex-direction: column;
+  width: calc(40% - 3rem);
+  margin-top: 1rem;
+  align-items: flex-start;
+}
+
+.guest {
+  background-color: rgb(220, 220, 220);
+}
+
+div.orientation,
+div.campus,
+div.guest {
+  width: 100%;
+  justify-content: flex-start;
+}
+
+.news .img-news {
+  width: 35%;
+  margin: 1rem 1rem;
+}
+
+.news .img-news img {
+  width: 100%;
+  height: auto;
+}
+
+.txt-news {
+  flex-direction: column;
+  align-items: flex-start;
+  width: calc(65% - 4rem);
+  margin-right: 2rem;
+}
+
+.txt-news h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: rgb(105, 105, 105);
+}
+
+.txt-news p {
+  margin: 0.5rem 0;
+  color: rgb(105, 105, 105);
+}
+
+.txt-news span {
+  color: rgb(0, 191, 255);
 }
