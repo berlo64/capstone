@@ -135,6 +135,29 @@ video {
   color: RGB(255, 255, 255);
 }
 
+@media only screen and (max-width: 480px) {
+  .banner {
+    flex-direction: column;
+  }
+
+  .img-ban {
+    margin: 0 0;
+  }
+
+  .banner > div {
+    width: 100%;
+  }
+
+  .start {
+    width: 100%;
+    margin: 1rem 1rem;
+  }
+
+  .start .button {
+    margin-top: 0.5rem;
+  }
+}
+
 /* THESIS & INFORMATION STRUCTURE style */
 
 .main {
