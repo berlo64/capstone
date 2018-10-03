@@ -1,4 +1,4 @@
-/* General style */
+/* GENERAL */
 html {
   background-color: rgb(220, 220, 220);
   font-size: 16px;
@@ -29,7 +29,17 @@ h3 {
   text-transform: uppercase;
 }
 
-/* Header style */
+.title {
+  margin: 2rem 0 0 0;
+}
+
+img,
+video {
+  width: 100%;
+  height: auto;
+}
+
+/* HEADER */
 
 .header {
   background-color: rgb(255, 255, 255);
@@ -62,16 +72,11 @@ h3 {
   margin-left: 0;
 }
 
-/* Banner style */
+/* BANNER */
 
 .img-ban {
   width: 60%;
   margin: 2rem 1.5rem;
-}
-
-.img-ban img {
-  width: 100%;
-  height: auto;
 }
 
 .start-sec {
@@ -107,12 +112,7 @@ h3 {
   color: RGB(255, 255, 255);
 }
 
-/* Information style (main) */
-
-.informations {
-  background-color: rgb(255, 255, 255);
-  align-items: flex-start;
-}
+/* THESIS & INFORMATION STRUCTURE style */
 
 .main {
   width: 60%;
@@ -120,14 +120,45 @@ h3 {
   flex-direction: column;
 }
 
-.img-main {
+.media-main {
   width: 100%;
   margin-bottom: 2rem;
 }
 
-.img-main img {
+.stories {
+  flex-direction: column;
+  width: calc(40% - 3rem);
+  margin-top: 1rem;
+  align-items: flex-start;
+}
+
+.stories > .story {
   width: 100%;
-  height: auto;
+  justify-content: flex-start;
+}
+
+.story .media-story {
+  width: 35%;
+  margin: 1rem 1rem;
+}
+
+.txt-story {
+  flex-direction: column;
+  align-items: flex-start;
+  width: calc(65% - 4rem);
+  margin-right: 2rem;
+}
+
+.txt-story p {
+  margin: 0.5rem 0;
+  color: rgb(105, 105, 105);
+}
+
+/* INFORMATION */
+
+.informations {
+  background-color: rgb(255, 255, 255);
+  align-items: flex-start;
 }
 
 .txt-main h1 {
@@ -138,67 +169,26 @@ h3 {
   margin-top: 2rem;
 }
 
-/* Information style (news) */
-
-.news {
-  flex-direction: column;
-  width: calc(40% - 3rem);
-  margin-top: 1rem;
-  align-items: flex-start;
-}
-
 .guest {
   background-color: rgb(220, 220, 220);
 }
 
-div.orientation,
-div.campus,
-div.guest {
-  width: 100%;
-  justify-content: flex-start;
-}
-
-.news .img-news {
-  width: 35%;
-  margin: 1rem 1rem;
-}
-
-.news .img-news img {
-  width: 100%;
-  height: auto;
-}
-
-.txt-news {
-  flex-direction: column;
-  align-items: flex-start;
-  width: calc(65% - 4rem);
-  margin-right: 2rem;
-}
-
-.txt-news p {
-  margin: 0.5rem 0;
-  color: rgb(105, 105, 105);
-}
-
-.txt-news span {
+.txt-story span {
   color: rgb(0, 191, 255);
 }
 
-/* Learninf style */
+/* LEARNING */
 
 .learning {
   flex-direction: column;
   align-items: center;
 }
 
-.learn {
-  margin: 2rem;
-}
-
 .courses {
   width: calc(100% - 9rem);
   justify-content: space-between;
   align-items: flex-start;
+  margin-top: 2rem;
 }
 
 .course {
@@ -206,11 +196,6 @@ div.guest {
   background-color: rgb(255, 255, 255);
   height: 23.615625rem;
   margin-bottom: 2rem;
-}
-
-.img-course img {
-  width: 100%;
-  height: auto;
 }
 
 .description {
@@ -229,4 +214,25 @@ div.guest {
 
 .description p {
   color: rgb(105, 105, 105);
+}
+
+/* THESIS */
+
+.thesis-exibition {
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+}
+
+.thesis {
+  align-items: flex-start;
+}
+
+.txt-main h3 {
+  margin-bottom: 0.5rem;
+}
+
+.fisma {
+  background-color: rgb(220, 220, 220);
+  margin-top: 1rem;
 }
