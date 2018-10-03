@@ -236,3 +236,13 @@ video {
   background-color: rgb(220, 220, 220);
   margin-top: 1rem;
 }
+
+/* FOOTER */
+
+.footer {
+  margin: 1rem 1.5rem;
+}
+
+.legal-notes :first-child {
+  margin-right: 0.5rem;
+}
