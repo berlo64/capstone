@@ -39,6 +39,20 @@ video {
   height: auto;
 }
 
+.mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 480px) {
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: inline;
+  }
+}
+
 /* HEADER */
 
 .header {
@@ -72,26 +86,14 @@ video {
   margin-left: 0;
 }
 
-.mobile {
-  display: none;
-}
-
 @media only screen and (max-width: 480px) {
   .navigation {
     margin-right: 0;
   }
 
-  .mobile {
-    display: inline;
-  }
-
   .mobile div {
     display: inline-block;
     margin-right: 1.5rem;
-  }
-
-  .desktop {
-    display: none;
   }
 }
 
@@ -221,6 +223,50 @@ video {
 
 .txt-story span {
   color: rgb(0, 191, 255);
+}
+
+@media only screen and (max-width: 480px) {
+  .informations {
+    flex-direction: column;
+  }
+
+  .stories {
+    margin: 0 0;
+    width: 100%;
+    align-items: center;
+  }
+
+  .stories > .story {
+    flex-direction: column;
+    width: calc(100% - 2rem)
+  }
+
+  .story {
+    margin: 2rem 0;
+  }
+
+  .story.orientation {
+    margin-top: 1rem;
+  }
+
+  .story .media-story,
+  .txt-story {
+    width: 100%;
+    margin: 0 0;
+  }
+
+  .txt-story {
+    padding: 0 1rem;
+    box-sizing: border-box;
+    margin-top: 1rem;
+  }
+
+  .txt-story {
+  }
+
+  .guest {
+    background-color: rgb(255, 255, 255);
+  }
 }
 
 /* LEARNING */
