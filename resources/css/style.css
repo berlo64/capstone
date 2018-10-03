@@ -72,6 +72,29 @@ video {
   margin-left: 0;
 }
 
+.mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 480px) {
+  .navigation {
+    margin-right: 0;
+  }
+
+  .mobile {
+    display: inline;
+  }
+
+  .mobile div {
+    display: inline-block;
+    margin-right: 1.5rem;
+  }
+
+  .desktop {
+    display: none;
+  }
+}
+
 /* BANNER */
 
 .img-ban {
