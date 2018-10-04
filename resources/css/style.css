@@ -3,19 +3,18 @@ html {
   background-color: rgb(220, 220, 220);
   font-size: 16px;
   font-family: sans-serif;
-  line-height: 1.4;
 }
 
 h1 {
   font-size: 2.5rem;
   font-weight: bold;
-  color: RGB(105, 105, 105);
+  color: RGB(64, 64, 64);
 }
 
 h3 {
   font-size: 1.5rem;
   font-weight: bold;
-  color: rgb(105, 105, 105);
+  color: rgb(64, 64, 64);
 }
 
 .flex {
@@ -66,12 +65,12 @@ video {
 }
 
 .colmar {
-  color: rgb(105, 105, 105);
+  color: rgb(64, 64, 64);
   font-weight: 500;
 }
 
 .academy {
-  color: rgb(169, 169, 169);
+  color: rgb(105, 105, 105);
 }
 
 .navigation {
@@ -308,6 +307,37 @@ video {
   color: rgb(105, 105, 105);
 }
 
+@media only screen and (max-width: 480px) {
+  .learning {
+    background-color: rgb(255, 255, 255);
+  }
+
+  .learning .title {
+    margin-bottom: 0.75rem;
+  }
+
+  .courses {
+    width: calc(100% - 2rem);
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0 0 2rem 0;
+  }
+
+  .course {
+    width: 100%;
+    margin: 0.25rem 0;
+    text-align: left;
+    height: 4rem;
+  }
+
+  .course h3 {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 1rem 1rem 1.5rem 1rem;
+    background-color: rgb(220, 220, 220);
+  }
+}
+
 /* THESIS */
 
 .thesis-exibition {
@@ -329,6 +359,23 @@ video {
   margin-top: 1rem;
 }
 
+@media only screen and (max-width: 480px) {
+  .thesis-exibition .title {
+    margin-bottom: 1rem;
+  }
+
+  .main {
+    width: 100%;
+    margin: 0 0;
+  }
+
+  .media-main {
+    width: 100%;
+    margin-bottom: 1.5rem;
+  }
+}
+
+
 /* FOOTER */
 
 .footer {
@@ -337,4 +384,10 @@ video {
 
 .legal-notes :first-child {
   margin-right: 0.5rem;
+}
+
+@media only screen and (max-width: 480px) {
+  .footer {
+    margin: 1rem 1rem;
+  }
 }
