@@ -159,6 +159,9 @@ header {
 
 .start .button span {
   padding: 0.5rem 0;
+}
+
+.start .button span a {
   color: RGB(255, 255, 255);
 }
 
