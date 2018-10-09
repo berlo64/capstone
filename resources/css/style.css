@@ -31,6 +31,14 @@ a {
   text-decoration: none;
 }
 
+.link:visited {
+  color: rgb(102, 51, 153);
+}
+
+.link:hover {
+  box-shadow: 0.25rem 0.25rem 0.25rem rgb(238, 238, 238);
+}
+
 .flex {
   display: flex;
   flex-wrap: wrap;
@@ -248,7 +256,11 @@ header {
   background-color: rgb(238, 238, 238);
 }
 
-.txt-story span {
+.guest .link:hover {
+  box-shadow: 0.25rem 0.25rem 0.25rem rgb(255, 255, 255);
+}
+
+.txt-story span a {
   color: rgb(0, 191, 255);
 }
 
